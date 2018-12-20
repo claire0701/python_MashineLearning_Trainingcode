@@ -2,7 +2,7 @@
 # Traning Code from book Machine Learing in Python
 import sys
 import numpy as np
-import matplotlib 
+import pylab
 import scipy.stats as stats
 
 
