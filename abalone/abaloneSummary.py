@@ -34,7 +34,7 @@ abaloneNormalized = abalone.iloc[:, 1:9]
 for i in range(8):
     mean = summary.iloc[1, i]
     sd = summary.iloc[2, i]
-abaloneNormalized.iloc[:, i:(i+1)] = (abaloneNormalized.iloc[:, i:(i+1)] - mean) / sd 
+    abaloneNormalized.iloc[:, i:(i+1)] = (abaloneNormalized.iloc[:, i:(i+1)] - mean) / sd 
 
 array3 = abaloneNormalized.values
 boxplot(array3)
